@@ -1,0 +1,79 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 164px;
+    background-color: #FAFAF9;
+    
+
+}
+
+.container {
+    display: inline;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 380px;
+    width: 368px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 336px;
+    height: 152px;
+    background-image: url("cactus_img.jpg");
+    background-size: cover;
+    margin: 16px;
+    border-radius: 10px;
+
+}
+
+.tag {
+    margin-left: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 70px;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    border-radius: 16px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.heading-tag {
+    margin-top: 16px;
+    font-family: "Sora", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #20293A;
+    margin-right: 16px;
+    margin-left: 16px;
+
+}
+
+.desc {
+    margin-top: 6px;
+    font-family: "Sora", sans-serif;
+    font-size: 0.875rem;
+    color: #6C727F;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+.desc2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Sora", sans-serif;
+    font-size: 0.75rem;
+    color: #6C727F;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-top: 1px solid #E5EAF0;
+
+}
